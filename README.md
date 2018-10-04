@@ -27,3 +27,13 @@ Para remover aplicação
 Para iniciar aplicação com outro nome
 
     pm2 start index.js --name=echo
+
+Para subir com numero de instancia
+
+    pm2 start index.js -i 0
+    
+    Significa um processo por cpu
+
+ Para recarregar a aplicação
+
+    pm2 reload index   
